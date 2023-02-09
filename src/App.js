@@ -6,6 +6,7 @@ import Footer from './Footer';
 import { useState } from 'react';
 import Kartica from './Kartica';
 import './App.css';
+import Pocetna from './Pocetna';
 
 function App() {
 
@@ -50,16 +51,18 @@ function App() {
 
         },
   ]);
-
+  function rezervisi(id){
+    console.log(id)
+  }
 
   return (
     <div className="App">
     <BrowserRouter>
           <Navbar   ></Navbar>
-          <Kartica></Kartica>
-          <Kartica></Kartica>
+          
 
           <Routes>
+            <Route path="/" element={<Pocetna predstave={predstave} rezervisi={rezervisi}></Pocetna>}></Route>
  
           
 

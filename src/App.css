@@ -71,33 +71,19 @@ display: block;
     box-sizing: border-box;
   }
   
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Montserrat;
-    background: #262626;
-    width: 100%;
-    height: 100vh;
-  }
+ 
   
   .outer {
     position: relative;
-    background: #fff;
+    background: #f1ec9d;
     height: 350px;
-    width: 550px;
+    width: 850px;
     overflow: hidden;
     display: flex;
     align-items: center;
+    margin: 50px;
   }
-  
-  img {
-    position: absolute;
-    top: 0px;
-    right: -20px;
-    z-index: 0;
-    animation-delay: 0.5s;
-  }
+ 
   
   .content {
     animation-delay: 0.3s;

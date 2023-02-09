@@ -1,25 +1,27 @@
-import { BsFillCartFill } from 'react-icons/bs';
+ 
 
  
 
- function Kartica({p}) {
+ function Kartica({p,rezervisi}) {
+    
     return (
-        <div class="wrapper">
-        <div class="outer">
-            <div class="content animated fadeInLeft">
-                <span class="bg animated fadeInDown">{p.datum}  {p.vreme}</span>
+        
+        <div className="outer">
+            <div className="content animated fadeInLeft">
+               
                 <h1>{p.naziv}<br/>  </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officiis vitae explicabo dolorum quod est illum beatae, praesentium at temporibus nemo tempore quam deserunt dolorem fuga, repellat eveniet repudiandae enim?</p>
+                <span class="bg animated fadeInDown">{p.datum}  {p.vreme}</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.    </p>
                 
-                <div class="button">
-                    <a class="cart-btn" href="#"><BsFillCartFill class="cart-icon ion-bag"></BsFillCartFill>ADD TO CART</a>
+                <div className="button">
+                    <a className="cart-btn"   onClick={()=>rezervisi(p.id)}>Rezervisi</a>
                 </div>
                 
             </div>
             
         </div>
        
-    </div>
+    
        
        
     );
