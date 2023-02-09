@@ -6,9 +6,9 @@ function Navbar() {
      
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         
-        < Link  to="/" className="navbar-brand">Predstave</Link>
+        < Link  to="/" className="navbar-brand">Pocetna</Link>
 
-        < Link  to="/pregledi" className="nav-link">Moje rezervacije</Link>
+        < Link  to="/rezervacije" className="nav-link">Moje rezervacije</Link>
  
 
 
