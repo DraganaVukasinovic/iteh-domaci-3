@@ -1,10 +1,12 @@
  
-import './App.css';
 import Navbar from './Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer';
 import { useState } from 'react';
+import Kartica from './Kartica';
+import './App.css';
+
 function App() {
 
 
@@ -16,8 +18,7 @@ function App() {
           datum: "11.02.2023.",
           vreme: "12h",
           cena:350, 
-        
-
+           
         },
         {
           id:2,
@@ -26,8 +27,7 @@ function App() {
           datum: "11.02.2023.",
           vreme: "17h",
           cena:550, 
-        
-
+       
         },
         {
           id:3,
@@ -36,7 +36,7 @@ function App() {
           datum: "12.02.2023.",
           vreme: "12h",
           cena:450, 
-        
+          
 
         },
         {
@@ -46,7 +46,7 @@ function App() {
           datum: "12.02.2023.",
           vreme: "17h",
           cena: 650, 
-        
+  
 
         },
   ]);
@@ -56,9 +56,12 @@ function App() {
     <div className="App">
     <BrowserRouter>
           <Navbar   ></Navbar>
+          <Kartica></Kartica>
+          <Kartica></Kartica>
+
           <Routes>
  
-        
+          
 
 
           </Routes>
