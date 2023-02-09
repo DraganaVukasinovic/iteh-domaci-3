@@ -8,7 +8,7 @@ function Navbar() {
         
         < Link  to="/" className="navbar-brand">Predstave</Link>
 
-        < Link  to="/pregledi" className="nav-link">O nama</Link>
+        < Link  to="/pregledi" className="nav-link">Moje rezervacije</Link>
  
 
 
