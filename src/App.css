@@ -13,6 +13,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border-top: 2px solid black;
 }
 
 
@@ -193,5 +194,5 @@ display: block;
 
   .rezervacije{
     margin: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 25%;
   }
