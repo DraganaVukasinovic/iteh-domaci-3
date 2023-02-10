@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Kartica from "./Kartica";
+ 
 
  
  
@@ -8,6 +7,7 @@ import Kartica from "./Kartica";
  
 
     return (
+      <div className="rezervacije">
         <table className="table">
         <thead>
           <tr>
@@ -36,7 +36,7 @@ import Kartica from "./Kartica";
       </table>
       
                     
-      
+      </div>
 
 
 

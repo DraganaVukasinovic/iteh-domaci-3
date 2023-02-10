@@ -82,6 +82,7 @@ display: block;
     display: flex;
     align-items: center;
     margin: 50px;
+ 
   }
  
   
@@ -89,8 +90,8 @@ display: block;
     animation-delay: 0.3s;
     position: absolute;
     left: 20px;
-    z-index: 3
-    
+    z-index: 3;
+    padding:100px;
   }
   
   h1 {
@@ -101,7 +102,7 @@ display: block;
     width: 280px;
     font-size: 13px;
     line-height: 1.4;
-    color: #aaa;
+    color: black;
     margin: 20px 0;
     
   }
@@ -182,4 +183,15 @@ display: block;
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+
+  .App{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgb(0, 174, 255), rgb(37, 218, 157));
+  }
+
+
+  .rezervacije{
+    margin: 10%;
+    margin-bottom: 20%;
   }
