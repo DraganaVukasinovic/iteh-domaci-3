@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer';
 import { useState } from 'react';
-import Kartica from './Kartica';
+
 import './App.css';
 import Pocetna from './Pocetna';
 import Rezervacije from './Rezervacije';
@@ -12,7 +12,7 @@ import Rezervacije from './Rezervacije';
 function App() {
 
   const [rezervacije,setRezervacije] = useState([]);
-  const [predstave,setPredstave] = useState([
+  const [predstave] = useState([
         {
           id:1,
           naziv:"IVICA I MARICA",
@@ -56,6 +56,7 @@ function App() {
   
 
         },
+        //
   ]);
   function rezervisi(id){
 
@@ -67,6 +68,7 @@ function App() {
 
      var niz = predstave.filter((p)=>p.rezervisano==1);
      setRezervacije(niz);
+ 
      console.log(rezervacije)
   }
 
